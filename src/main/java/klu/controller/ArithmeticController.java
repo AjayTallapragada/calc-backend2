@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/calc")  
+
 
 public class ArithmeticController {
  @GetMapping("/add/{A}/{B}")
